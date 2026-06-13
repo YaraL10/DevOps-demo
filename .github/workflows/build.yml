@@ -32,7 +32,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker Image
-        run: docker build -t yara1110/devops-demo:latest .
+        run: docker build -t yara110/devops-demo:latest .
 
       - name: Push Docker Image
-        run: docker push yara1110/devops-demo:latest
+        run: docker push yara110/devops-demo:latest
