@@ -110,13 +110,13 @@ docker run -p 8080:8080 devops-demo
 Pull the published image:
 
 ```bash
-docker pull yara1110/devops-demo:latest
+docker pull yara110/devops-demo:latest
 ```
 
 Run it:
 
 ```bash
-docker run -p 8080:8080 yara1110/devops-demo:latest
+docker run -p 8080:8080 yara110/devops-demo:latest
 ```
 
 ## Kubernetes
@@ -162,7 +162,7 @@ Workflow location:
 Docker Hub Repository:
 
 ```text
-yara1110/devops-demo
+yara110/devops-demo
 ```
 
 ## Author
@@ -170,4 +170,4 @@ yara1110/devops-demo
 **Yara Allama**
 
 - GitHub: https://github.com/YaraL10
-- Docker Hub: https://hub.docker.com/u/yara1110
+- Docker Hub: https://hub.docker.com/u/yara110
