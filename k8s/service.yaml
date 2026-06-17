@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2026-06-17T19:34:00Z"
+  labels:
+    app: devops-demo
+  name: devops-demo
+  namespace: default
+  resourceVersion: "2090"
+  uid: df21fa8c-7201-4926-a438-9af8a60edbe5
+spec:
+  clusterIP: 10.96.255.6
+  clusterIPs:
+  - 10.96.255.6
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 31147
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: devops-demo
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}
